@@ -50,7 +50,7 @@ public class Car implements Runnable {
 		Thread thread2 = new Thread(carB);
 		Thread thread3 = new Thread(carC);
 
-		System.out.println("Distance: 100KM");
+		System.out.println("Distance: 200KM");
 		thread1.start();
 		thread2.start();
 		thread3.start();
